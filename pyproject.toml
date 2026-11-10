@@ -1,0 +1,17 @@
+[project]
+name = "ghit"
+version = "0.1.0"
+description = "Github Issue Tagger"
+readme = "README.md"
+authors = [
+    { name = "Tanish Kushalkar", email = "tanishkushalkar@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+ghit = "ghit:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
